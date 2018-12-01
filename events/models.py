@@ -27,3 +27,7 @@ class Event(models.Model):
     created = models.DateTimeField()
     last_modified = models.DateTimeField(blank=True, null=True)
 
+    def __str__(self):
+        """We want the string representation of Event model to be its name"""
+        return self.name
+
