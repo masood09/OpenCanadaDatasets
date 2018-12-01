@@ -14,8 +14,12 @@ services:
 # What command to run to install dependencies
 install:
   - pip install -r requirements/test.txt
+  - pip install -q coveralls
 
 # What script to run?
 script:
   - coverage run manage.py test
+
+after_success:
+  - coveralls
 
