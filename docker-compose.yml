@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  database:
+    image: postgres:10.5
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+
+  application:
+    build: .
+    ports:
+      - 8000:8000
+    links:
+      - database
+    env_file: .env
+    volumes:
+      - .:/application/
+
+volumes:
+  postgres_data:
+
