@@ -13,7 +13,7 @@ services:
 
 # What command to run to install dependencies
 install:
-  - pip install -r requirements/testing.txt
+  - pip install -r requirements/test.txt
 
 # What script to run?
 script:
