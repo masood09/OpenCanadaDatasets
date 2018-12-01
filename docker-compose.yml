@@ -8,6 +8,14 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
 
+  application:
+    build: .
+    ports:
+      - 8000:8000
+    links:
+      - database
+    env_file: .env
+
 volumes:
   postgres_data:
 
