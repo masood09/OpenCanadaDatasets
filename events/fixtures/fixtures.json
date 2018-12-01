@@ -1,0 +1,36 @@
+[
+    {
+        "model": "events.event",
+        "pk": "aeb4a545-a861-4785-9611-c2899902b2c3",
+        "fields": {
+            "cache_last_updated": null,
+            "package_id": "fd3355a7-ae34-4df7-b477-07306182db69",
+            "datastore_active": false,
+            "id": "aeb4a545-a861-4785-9611-c2899902b2c3",
+            "state": "active",
+            "name_translated": {
+                "fr": "NationalTornadoEvents_1980-2009.zip",
+                "en": "NationalTornadoEvents_1980-2009.zip"
+            },
+            "hash": "",
+            "description": "",
+            "format": "ZIP",
+            "mimetype_inner": null,
+            "url_type": null,
+            "mimetype": null,
+            "cache_url": null,
+            "name": "NationalTornadoEvents_1980-2009.zip",
+            "language": [
+                "en"
+            ],
+            "created": "2018-08-29T20:33:15.981193",
+            "url": "http://donnees.ec.gc.ca/data/weather/products/canadian-national-tornado-database-verified-events-1980-2009-public/canadian-national-tornado-database-verified-events-1980-2009-public-gis-en/NationalTornadoEvents_1980-2009.zip",
+            "last_modified": null,
+            "data_quality": [],
+            "position": 0,
+            "revision_id": "5dfcaf63-3327-452d-8ac6-360472545dd3",
+            "resource_type": "dataset"
+        }
+    }
+]
+
