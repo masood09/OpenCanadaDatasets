@@ -1,6 +1,9 @@
 # What language the project is of
 language: python
 
+sudo: required
+dist: xenial
+
 # What version(s) of python to test against
 python:
   - "3.7"
