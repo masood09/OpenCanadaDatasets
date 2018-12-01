@@ -15,6 +15,8 @@ services:
     links:
       - database
     env_file: .env
+    volumes:
+      - .:/application/
 
 volumes:
   postgres_data:
